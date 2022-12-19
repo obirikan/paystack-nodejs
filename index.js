@@ -7,7 +7,7 @@ require('dotenv').config()
 
 
 //run server
-const port=process.env.PORT || 7070
+const port=process.env.PORT 
 
 app.listen(port,()=>{
     console.log(`port is running on ${port}`)
